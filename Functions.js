@@ -8,7 +8,6 @@ logger();
 
 //FUNCTION PARAMETERS:
 function fruitProcessor(appleNumber, orangeNumber) {
-  console.log(apples, oranges);
   const juice = `Juice made from ${appleNumber} apples and ${orangeNumber}`
   return juice; 
 }
