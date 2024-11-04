@@ -19,7 +19,7 @@ console.log(friends.length);
 console.log(friends[friends.length - 1]); //JS expects an expression, not a statement inside square brackets
 
 const firstName = 'Zochna'
-const Zos = [firstName, 'Vonho', 2037 - 1988] //all these items produce a value, hence: expressions :D 
+const Zos = [firstName, 'Vonho', 2037 - 1988]; //all these items produce a value, hence: expressions :D 
 
 //
 const calcAge = function (birthYear) {
