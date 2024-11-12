@@ -42,7 +42,10 @@ function deleteShoppingCart() {
 /* GOOD PRACTICES WITH HOISTING
 - avoid var variables
 - use strict mode
-
-TBC 
-
+- declare functions before variables
 */
+
+var x = 1; //creates a property on a JS 'window' object (to be viewed in a web browser - let and const don't) 
+console.log(x === window.x); //logs 'true' because see above
+let y = 2;
+const z = 3;
