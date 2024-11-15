@@ -28,3 +28,4 @@ console.log(zos.__proto__ === Person.prototype); //will also log 'true'
 console.log(Person.prototype.isPrototypeOf(zos)); 
 
 //In actuality, a 'prototype' is actually more of 'prototypeOfLinkedObjects'
+
